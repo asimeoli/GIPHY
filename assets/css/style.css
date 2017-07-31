@@ -1,0 +1,62 @@
+/*GIPHY CSS*/
+
+body {
+    background: url(http://wlex.images.worldnow.com/images/13987262_G.jpg);
+    background-size: 100%;
+    background-repeat: ;
+}
+
+.navbar {
+    background: transparent;
+    background: none;
+    border: 0;
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+a,
+h2 {
+    color: white;
+    font-family: 'Anonymous Pro', monospace;
+    font-size: 24px;
+}
+
+#GIPHippopotamus {
+    color: white;
+    font-size: 30px;
+}
+
+
+.gifArea {
+    /*background-color: white;*/
+}
+
+button {
+    margin: 5px;
+    font-family: 'Anonymous Pro', monospace;
+}
+
+.buttonArea {
+    /*border: 2px solid black;*/
+}
+
+#gifDivs {
+    float: left;
+    margin: 10px;
+    clear: all;
+    background-color: white;
+}
+
+.row {
+    /*margin: 25px;*/
+}
+
+.search {
+    /*border: 2px solid black;*/
+}
+
+.top,
+.middle,
+.bottom {
+    /*margin: 20px;*/
+}
