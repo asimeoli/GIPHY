@@ -1,5 +1,5 @@
 // GIPHY JS
-var topics = ["hippopotamus", "hippos", "baby hippos", "fiona the hippo", "swimming hippos", "hungry hippos", "hungry hungry hippos"]
+var topics = ["hippopotamus", "hippos", "baby hippos", "swimming hippos", "hungry hippos", "hungry hungry hippos"]
 
 var nextButtonID = 0;
 
@@ -54,7 +54,7 @@ function addGifs(searchTerm) {
             var rating = "rating: " + gifs[i].rating;
             // List them on the page
             $(".gifArea").append("<div id='gifDivs'><img id=" + gifID + " src='" + img + "'><p>" + rating + "</p></img></div>");
-            $(".gifArea").css("background-color", "white");
+            //$(".gifArea").css("background-color", "white");
             $('#' + gifID).on("click", { gif: gif, img: img }, function(e) {
                 //change from still to gif
                 var source = $(this)[0].currentSrc;
