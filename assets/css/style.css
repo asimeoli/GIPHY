@@ -19,8 +19,16 @@ body {
     background: transparent;
     background: none;
     border: 0;
-    /*box-shadow: none;
-    -webkit-box-shadow: none;*/
+    box-shadow: none;
+    -webkit-box-shadow: none;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.gifArea {
+    margin-top: 40px;
 }
 
 a,
